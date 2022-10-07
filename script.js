@@ -19,12 +19,28 @@ let resta= restar(num3,num4);
 console.log(resta);
 //#endregion
 //#region
-function division(n5,num6){
+function division(n5,n6){
     var division = n5/n6;
     return division;
 }
-var numero5=12;
-var numero6=4;
+var numero5=10;
+var numero6=2;
 let divi = division(numero5,numero6);
 console.log(divi);
 //#endregion
+//#region
+function multiplicacion(n7,n8){
+    var multiplicacion= n7*n8;
+    return multiplicacion;
+}
+var numero7=4;
+var numero8=20;
+let multi= multiplicacion(numero7,numero8);
+console.log(multi);
+//#endregion
+//#region 
+let array=[2,4,10.15,5,7];
+for (i=0;i<array.length;i++){
+    console.log(array[i]);
+}
+//endregio
